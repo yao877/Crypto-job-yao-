@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 
 # Récupération du token depuis les variables d'environnement
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7478572277:AAG-V01yeqfkwgcy85oCcUfga8f2op_pMsE")
 
 # Fonction qui gère la commande /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
